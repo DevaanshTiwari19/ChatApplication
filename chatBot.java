@@ -18,13 +18,13 @@ public class chatBot {
             user1msg = sc.nextLine();
             if (user1msg.equalsIgnoreCase("exit")) break;
             
-            System.out.println( user1 + " says " + user1msg);
+            System.out.println( user1 + " says=> " + user1msg);
 
             System.out.println( user2 + ": ");
             user2msg = sc.nextLine();
             if (user2msg.equalsIgnoreCase("exit"))break;
 
-            System.out.println(user2 + " says " + user2msg);
+            System.out.println(user2 + " says=> " + user2msg);
         }
         System.out.println("Chat Ended");
         System.out.println("Thank You :)");
